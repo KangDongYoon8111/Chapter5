@@ -10,9 +10,7 @@ namespace IfElse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("GitHub 테스트 중입니다~");
-            // 두번째 변경 확인중　Ｔｅｓｔ！！！！
-            
+            // 연결성 확인.
         }
     }
 }
