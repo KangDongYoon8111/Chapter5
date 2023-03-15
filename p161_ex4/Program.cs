@@ -12,7 +12,7 @@ namespace p161_ex4
         {
             Console.Write("알고싶은 월을 입력해주세요. : ");
             string input = Console.ReadLine();
-            string season = "";
+            string season="";
 
             switch (input)
             {
@@ -30,7 +30,7 @@ namespace p161_ex4
                     break;
                 default:
                     Console.WriteLine("정상적인 입력값이 아닙니다. 확인 후 다시 실행해 주세요.");
-                    return;
+                    break;
             }
 
             Console.WriteLine($"입력하신 {input}월은 {season} 입니다.");
