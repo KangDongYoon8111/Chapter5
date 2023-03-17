@@ -6,10 +6,11 @@ namespace For
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i < 5; i++)
-            {
-                Console.WriteLine(i);
-            }
+            int[] score = new int[5];
+            score[0] = 1;
+            score[1] = 2;
+
+            int[] score1 = new int[] { 1, 2, 3, 4, 5 };
         }
     }
 }
